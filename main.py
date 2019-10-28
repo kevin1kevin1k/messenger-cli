@@ -39,3 +39,5 @@ while True:
     div.find_element_by_xpath(".//br[@data-text='true']").send_keys(msg[0])
     div.find_element_by_xpath(".//span[@data-text='true']").send_keys(msg[1:])
     div.find_element_by_xpath(".//span[@data-text='true']").send_keys(Keys.RETURN)
+
+driver.close()
